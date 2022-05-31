@@ -1,0 +1,22 @@
+{
+  "name": "natours_css-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatihtuzunn/Natours_Project-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatihtuzunn/Natours_Project-CSS/issues"
+  },
+  "homepage": "https://github.com/fatihtuzunn/Natours_Project-CSS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
