@@ -43,6 +43,14 @@
             background-color: #fff;
         }
     }
+    &--green {
+        background-color: $color-primary;
+        color: #fff;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
 
     &::after {
         content: "";
@@ -87,3 +95,4 @@
         transform: translateY(-2px);
     }
 }
+
